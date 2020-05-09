@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,600,700,800&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap');
+
+$primarycolor:#f5f6fa;
+$secondrycolor:#fff;
+$colorBlue:#596edc;
+$buttonHover:#3e58e0;
+$fontcolorPRimary:#000;
+$fontcolorSecondary:#606060;
+$fontcolor:#fff;
+$nopadding: 0px;
+$primaryFontsize: 16px;
+$primaryfontfamily:"Open Sans";
+$secandryfontfamily:"roboto";
+$radius: 4px;
+$shadow: 0px 2px 6px 0 rgba(0, 0, 0, 0.1);
+$border: 1px solid #f1f1f1;
+div, p, span, ul, li, h1, h2, h3, h4, h5, h6
+{
+    font-family: $primaryfontfamily;
+}
+body
+{
+    color:$fontcolorPRimary;
+    font-family:$primaryfontfamily;
+    background-color:$primarycolor;
+    font-weight:300;
+    font-size: $primaryFontsize;
+}
+.MuiFormLabel-root
+{
+    font-family:$primaryfontfamily;
+}
+#content_side_userLS
+{
+  
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    color: $secondrycolor;
+    h1
+    {
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 35px;
+        margin-top: 0;
+    }
+    p 
+    {
+        font-size: 24px;
+        font-weight: 300;
+        margin-top:0px;
+        margin-bottom: 40px;
+    }
+
+
+    
+}
+.formClass 
+{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondrycolor;
+    border-radius: $radius;
+    .input_field
+    {
+        margin-bottom: 16px;
+    }
+    .btnInput
+    {
+        margin-top:4px;
+        margin-bottom: 10px;
+    }
+    .MuiFormLabel-root
+    {
+        font-size: 14px;
+    }
+    .MuiInputLabel-shrink
+    {
+        font-size: 12px !important;  
+    }
+
+    .socialLogin
+    {
+        p
+        {
+            font-size: 12px;
+            color:$fontcolorSecondary;
+            margin:0px;
+            a
+            {
+                color:$fontcolorSecondary;text-decoration: none; 
+                &:hover
+                {
+                    color:$colorBlue;text-decoration: underline;
+                }
+            }
+        }
+        a
+        {font-size: 12px;
+            color:$colorBlue;
+        }
+        .devider
+        {
+            display: block;
+            height: 1px;
+            background-color: #e8eaf5;
+            margin:30px 0px;
+        }
+        .link
+        {
+            font-size: 14px;
+            color: #606060;
+            margin-right: 40px;
+            text-decoration: none;
+            &:last-child
+            {
+                margin-right: 0px;
+            }
+            img
+            { 
+                margin-right: 5px;
+                vertical-align: middle;
+                position: relative;
+                bottom: 2px;
+            }
+        }
+        .dviderV
+        {
+            margin-bottom: 30px;
+        }
+    }
+    .FormBtn
+    {
+        background: $colorBlue;
+        color: $secondrycolor;
+        font-size: 14px;
+        font-weight: 600;
+        box-shadow: none;
+        padding: 8px;
+        &:hover
+        {
+            background: $buttonHover;
+        }
+    }
+
+}
+.loginCon
+{
+    padding: 0px !important;
+    background-image: url(./images/loginback.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-top: 8% !important;
+    
+    form
+    {
+        width: 100%;
+        
+    }
+}
+.formSection
+{
+
+        display: block;padding: 40px 40px 20px;
+        h1
+        {
+            font-size: 25px;
+            margin-top: 0px;
+        }
+}
+.innerContainer
+{
+
+    .PrivateSwitchBase-root-293
+    {
+        padding: 0px;
+    }
+    .MuiFormControlLabel-labelPlacementStart
+    {
+        margin-left: 0px;
+    }
+    .listContainer
+    {
+        box-shadow: $shadow;
+        background-color: $secondrycolor;
+        border-radius: $radius;
+        margin: 40px 0px;
+    }
+    td, th
+    {
+        font-size: 14px;
+        width: auto;
+    }
+    td
+    {
+        padding: 10px 15px !important;
+    }
+    thead
+    {
+        background-color: #f5faf6;
+    }
+}
+
+.FormBtn
+{
+    background: $colorBlue !important;
+    color: $secondrycolor !important;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: none;max-width: 200px;
+    display: inline-block;
+    &:hover
+    {
+        background: $buttonHover;
+    }
+}
+.menuMain
+{
+    background-color: $secondrycolor !important;
+    .profileICOn
+    {
+        color: #78909C;
+    }
+}
+.FormBtn2
+{
+    color: $colorBlue !important;
+    background: $secondrycolor !important;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: none;
+    max-width: 200px;
+    display: inline-block;
+    &:hover
+    {
+        background: $colorBlue !important;
+        color: $secondrycolor !important;
+    }
+}
+.formSection2
+{
+    button
+    {
+        margin-right: 20px;
+    }
+}
